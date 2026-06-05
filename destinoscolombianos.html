@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Destinos Colombianos | Planes de Ecoturismo y Aventura</title>
+    <title>Traveling Colombia | Planes de Ecoturismo y Aventura</title>
     <!-- Metas SEO -->
     <meta name="description" content="Descubre los destinos colombianos más espectaculares. Guías completas del Parque Tayrona, Caño Cristales y el Amazonas con enfoque sostenible.">
     <meta name="keywords" content="destinos colombianos, turismo colombia, parques naturales colombia, viajar a colombia">
@@ -12,40 +12,141 @@
     <!-- Bootstrap 5.3 -->
     <link href="css/bootstrap-5.3.8.css" rel="stylesheet">
     <!-- Estilos Externos Separados -->
-    <link href="css/destinoscolombianos.css" rel="stylesheet">
 	<link rel="icon" type="image/png"
     href="favicon_io/favicon.ico">
-
-    <!-- JSON-LD: Marcado de Datos Estructurados para SEO (Guía Turística/Destinos) -->
-    <script type="application/ld+json">
+	
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "Guide",
-      "headline": "Guía de Destinos Naturales en Colombia",
-      "description": "Explora los ecosistemas más biodiversos y protegidos de Colombia.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Traveling Colombia"
+      "@type": "WebPage",
+      "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html#webpage",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html",
+      "name": "Destinos Colombianos | Traveling Colombia",
+      "description": "Descubre los destinos colombianos más espectaculares. Guías completas del Parque Tayrona, Caño Cristales y el Amazonas con enfoque sostenible.",
+      "inLanguage": "es-CO",
+      "isPartOf": {
+        "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/#website"
       },
-      "about": [
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/index.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Destinos Colombianos",
+            "item": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Destinos de Ecoturismo en Colombia",
+      "description": "Los mejores destinos naturales y de aventura en Colombia para viajeros sostenibles.",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html",
+      "numberOfItems": 3,
+      "itemListElement": [
         {
-          "@type": "Place",
-          "name": "Parque Nacional Natural Tayrona",
-          "description": "Playas vírgenes y selva tropical húmeda."
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "TouristDestination",
+            "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html#tayrona",
+            "name": "Parque Nacional Natural Tayrona",
+            "description": "Un santuario natural donde la Sierra Nevada de Santa Marta se encuentra con el Mar Caribe. Explora senderos ecológicos de bosque seco y húmedo, y playas de aguas cristalinas como Cabo San Juan, La Piscina y Arrecifes. Destino sagrado gestionado con comunidades indígenas.",
+            "image": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/images/Tucann.jpg",
+            "touristType": [
+              "Ecoturismo",
+              "Turismo cultural",
+              "Turismo de naturaleza"
+            ],
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "11.3074",
+              "longitude": "-74.0273"
+            },
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Caribe Colombiano",
+              "containedInPlace": {
+                "@type": "Country",
+                "name": "Colombia"
+              }
+            }
+          }
         },
         {
-          "@type": "Place",
-          "name": "Caño Cristales",
-          "description": "El río de los siete colores en la Macarena."
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "TouristDestination",
+            "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html#canocristales",
+            "name": "Caño Cristales",
+            "description": "Ubicado en la Sierra de la Macarena, este río es considerado el más hermoso del planeta. Sus aguas se tiñen de rojos, amarillos y verdes por la floración de la planta acuática endémica Macarenia clavigera. Promueve el desarrollo local sostenible de la comunidad macarenense.",
+            "image": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/images/cañoss.jpg",
+            "touristType": [
+              "Ecoturismo",
+              "Turismo de naturaleza",
+              "Turismo sostenible"
+            ],
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "2.2619",
+              "longitude": "-73.7853"
+            },
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Orinoquía Colombiana",
+              "containedInPlace": {
+                "@type": "Country",
+                "name": "Colombia"
+              }
+            }
+          }
         },
         {
-          "@type": "Place",
-          "name": "Amazonas",
-          "description": "Biodiversidad y cultura ancestral en el extremo sur colombiano."
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "TouristDestination",
+            "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html#amazonas",
+            "name": "Amazonas Colombiano",
+            "description": "Ingresa al pulmón del mundo a través de Leticia. Recorre el Río Amazonas en canoa, busca delfines rosados y duerme en reservas comunitarias. Conecta con las tradiciones de los pueblos Ticuna, Yagua y Cocama. Ideal para turismo de desconexión extrema y respeto por la naturaleza.",
+            "image": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/images/Amazonascard3.jpg",
+            "touristType": [
+              "Turismo de aventura",
+              "Ecoturismo",
+              "Turismo cultural"
+            ],
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "-3.7437",
+              "longitude": "-70.2926"
+            },
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Selva Sur",
+              "containedInPlace": {
+                "@type": "Country",
+                "name": "Colombia"
+              }
+            }
+          }
         }
       ]
     }
-    </script>
+  ]
+}
+</script>
+		
 </head>
 	
 <body>
@@ -105,7 +206,7 @@
 </div>
 	  </section>
 
-<footer class="footer-eco mt-3">
+<footer class="footer-eco mt-0">
 
     <div class="container">
 
@@ -125,17 +226,17 @@
             </div>
 
             <!-- COLUMNA 2 -->
-            <div class="col-lg-4 col-md-6 col-xxl-3">
+           <div class="col-lg-4 col-md-6 col-xxl-4 offset-xxl-1">
 
                 <h5>Enlaces</h5>
 
                 <ul class="list-unstyled">
 
-                    <li><a href="#">Inicio</a></li>
+                    <li><a href="index.html">Inicio</a></li>
 
-                    <li><a href="#">Destinos Colombianos</a></li>
+                    <li><a href="destinoscolombianos.html">Destinos Colombianos</a></li>
 
-                    <li><a href="#">Tips para viajeros</a></li>
+                    <li><a href="tipsviajeros.html">Tips para viajeros</a></li>
 
                     
 

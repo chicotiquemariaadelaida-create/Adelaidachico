@@ -4,42 +4,107 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
+    <title>Traveling Colombia | Planes de Ecoturismo y Aventura</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-5.3.8.css" rel="stylesheet">
-	<style type="text/css">
-	<link rel="icon"
-    type="image/png"
+	<link rel="icon" type="image/png"
     href="favicon_io/favicon.ico">
-	.mr-auto {
-}
-    .mo-auto {
-}
-    .cover {
-}
-    </style>
-	<!-- JSON-LD: Marcado de Datos Estructurados para SEO (Guía Turística/Destinos) -->
-    <script type="application/ld+json">
+	
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-  "@type": "TravelAgency",
-  "name": "Traveling Colombia",
-  "description": "Descubre destinos naturales, playas paradisíacas y experiencias de ecoturismo sostenible en Colombia.",
-  "url": "https://www.travelingcolombia.com",
-  "image": "images/Parque.tayrona.png",
-  "priceRange": "$$",
-  "areaServed": {
-    "@type": "Country",
-    "name": "Colombia"
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://www.travelingcolombia.com/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+      "@type": "WebSite",
+      "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/#website",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/",
+      "name": "Traveling Colombia",
+      "description": "Planes de Ecoturismo y Aventura en Colombia. Descubre destinos naturales, playas paradisíacas y experiencias sostenibles.",
+      "inLanguage": "es-CO",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Traveling Colombia",
+        "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/index.html#webpage",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/index.html",
+      "name": "Inicio | Traveling Colombia",
+      "description": "Página principal de Traveling Colombia. Descubre el Parque Tayrona, Caño Cristales y el Amazonas con planes de ecoturismo y aventura.",
+      "inLanguage": "es-CO",
+      "isPartOf": {
+        "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/index.html"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "TouristDestination",
+      "name": "Parque Tayrona",
+      "description": "Playas paradisíacas, senderos ecológicos y paisajes inolvidables en la costa colombiana.",
+      "image": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/images/Parque.tayrona.png",
+      "touristType": "Ecoturismo",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "11.3074",
+        "longitude": "-74.0273"
+      },
+      "containedInPlace": {
+        "@type": "Country",
+        "name": "Colombia"
+      }
+    },
+    {
+      "@type": "TouristDestination",
+      "name": "Caño Cristales",
+      "description": "Descubre el Meta y vive una experiencia única rodeada de naturaleza, ríos y aguas cristalinas.",
+      "image": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/images/caños.cristales.png",
+      "touristType": "Ecoturismo",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "2.2619",
+        "longitude": "-73.7853"
+      },
+      "containedInPlace": {
+        "@type": "Country",
+        "name": "Colombia"
+      }
+    },
+    {
+      "@type": "TouristDestination",
+      "name": "Amazonas",
+      "description": "Explora la biodiversidad y vive la mejor aventura conectando profundamente con la naturaleza.",
+      "image": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/images/Amazonas.png",
+      "touristType": "Aventura",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/destinoscolombianos.html",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-3.7437",
+        "longitude": "-70.2926"
+      },
+      "containedInPlace": {
+        "@type": "Country",
+        "name": "Colombia"
+      }
+    }
+  ]
 }
 </script>
-</head>
+	</head>
+	
   <body>
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">TRAVELING COLOMBIA&nbsp;&nbsp;</a>
@@ -125,17 +190,17 @@
             </div>
 
             <!-- COLUMNA 2 -->
-            <div class="col-lg-4 col-md-6 col-xxl-3">
+            <div class="col-lg-4 col-md-6 col-xxl-4 offset-xxl-1">
 
                 <h5>Enlaces</h5>
 
                 <ul class="list-unstyled">
 
-                    <li><a href="#">Inicio</a></li>
+                    <li><a href="index.html">Inicio</a></li>
 
-                    <li><a href="#">Destinos Colombianos</a></li>
+                    <li><a href="destinoscolombianos.html">Destinos Colombianos</a></li>
 
-                    <li><a href="#">Tips para viajeros</a></li>
+                    <li><a href="tipsviajeros.html">Tips para viajeros</a></li>
 
                     
 

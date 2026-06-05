@@ -4,54 +4,81 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
+    <title>Traveling Colombia | Planes de Ecoturismo y Aventura</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-5.3.8.css" rel="stylesheet">
-	<style type="text/css">
-	<link rel="icon"
-type="image/png"
-href="favicon_io/favicon.ico">
-	.mr-auto {
-}
-    .mo-auto {
-}
-    .cover {
-}
-    </style>
-	<!-- JSON-LD: Marcado de Datos Estructurados para SEO (Guía Turística/Destinos) -->
-    <script type="application/ld+json">
+	<link rel="icon" type="image/png"
+    href="favicon_io/favicon.ico">
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Requisitos médicos y vacunas prioritarias",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Para ingresar a áreas biodiversas y protegidas como el Amazonas o el Parque Tayrona, es de carácter obligatorio u altamente sugerido contar con la vacuna contra la Fiebre Amarilla. Asegúrate de recibir la dosis mínima de 10 días antes del ingreso y guardar tu certificado internacional de vacunación."
+      "@type": "WebPage",
+      "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/tipsviajeros.html#webpage",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/tipsviajeros.html",
+      "name": "Tips para Viajeros | Traveling Colombia",
+      "description": "Todo lo que necesitas saber antes de iniciar tu aventura por Colombia. Vacunación, equipaje sostenible, moneda y pagos locales.",
+      "inLanguage": "es-CO",
+      "isPartOf": {
+        "@id": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/index.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Tips para Viajeros",
+            "item": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/tipsviajeros.html"
+          }
+        ]
       }
     },
     {
-      "@type": "Question",
-      "name": "Gestión de residuos y ecoturismo responsable",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Los santuarios nacionales poseen ecosistemas sumamente frágiles. Está estrictamente prohibido el ingreso de plásticos de un solo uso en parques protegidos. Te recomendamos empacar tu propia botella de hidratación reutilizable, usar bolsas de tela y llevar de regreso contigo cualquier residuo no biodegradable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Moneda local, pagos y propinas",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "La moneda oficial es el Peso Colombiano (COP). Aunque la red bancaria y de cajeros en las capitales departamentales es excelente, en asentamientos del Amazonas o caseríos costeros del Tayrona el uso de tarjetas es casi nulo. Retira dinero suficiente con antelación para pagar alimentación local y transportes."
-      }
+      "@type": "FAQPage",
+      "url": "https://chicotiquemariaadelaida-create.github.io/Adelaidachico/tipsviajeros.html",
+      "name": "Tips para Viajeros en Colombia",
+      "description": "Recomendaciones esenciales para viajeros que desean explorar los destinos naturales de Colombia de forma segura y sostenible.",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué vacunas necesito para visitar el Amazonas o el Parque Tayrona en Colombia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es fundamental contar con la vacuna de la Fiebre Amarilla. Debes aplicártela con un mínimo de 10 días de anticipación a tu fecha de viaje y llevar siempre el carnet físico contigo al ingresar a los parques naturales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué equipaje debo llevar para viajar a destinos naturales en Colombia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Colombia tiene gran variedad de pisos térmicos. Para destinos naturales, prioriza prendas ligeras de secado rápido, zapatos para caminatas de alto agarre y una chaqueta impermeable liviana. Empaca termos reutilizables para evitar la contaminación por plásticos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo pagar con tarjeta de crédito en los destinos de ecoturismo en Colombia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En las principales ciudades se aceptan tarjetas de crédito, pero en destinos apartados como las comunidades del Amazonas o playas recónditas, el efectivo en pesos colombianos (COP) es indispensable para artesanías, guías locales y alimentación."
+          }
+        }
+      ]
     }
   ]
 }
 </script>
+	
 </head>
+	
 <body>
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">TRAVELING COLOMBIA&nbsp;&nbsp;</a>
@@ -123,19 +150,17 @@ href="favicon_io/favicon.ico">
             </div>
 
             <!-- COLUMNA 2 -->
-            <div class="col-lg-4 col-md-6 col-xxl-3">
+            <div class="col-lg-4 col-md-6 col-xxl-4 offset-xxl-1">
 
                 <h5>Enlaces</h5>
 
                 <ul class="list-unstyled">
 
-                    <li><a href="#">Inicio</a></li>
+                    <li><a href="index.html">Inicio</a></li>
 
-                    <li><a href="#">Destinos Colombianos</a></li>
+                    <li><a href="destinoscolombianos.html">Destinos Colombianos</a></li>
 
-                    <li><a href="#">Tips para viajeros</a></li>
-
-                    
+                    <li><a href="tipsviajeros.html">Tips para viajeros</a></li>  
 
                 </ul>
 
@@ -253,5 +278,6 @@ href="favicon_io/favicon.ico">
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/popper-2.11.8.min.js"></script> 
 	<script src="js/bootstrap-5.3.8.js"></script>
+</div>
   </body>
 </html>
